@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Layered garden planting — original demonstration illustration</title>
+  <desc>Original vector placeholder of tropical foliage and flowering garden beds. Not a real property or completed project.</desc>
+  <defs><linearGradient id="back" x2="1" y2="1"><stop stop-color="#c5d9c9"/><stop offset="1" stop-color="#4d7c70"/></linearGradient><g id="leaves"><path d="M0 159Q-116 74-115-13-24 9 0 159M0 159Q-55 24 1-69 53 27 0 159M0 159Q35 12 129-1 109 93 0 159" fill="currentColor"/><path d="M0 159V-25" stroke="#b3bd88" stroke-width="4"/></g></defs>
+  <path fill="url(#back)" d="M0 0h800v600H0z"/>
+  <path d="M0 420q330-148 800-57v237H0" fill="#6b6048"/>
+  <path d="M0 519q353-112 800-59" fill="none" stroke="#ddd2af" stroke-width="22"/>
+  <g><use href="#leaves" transform="translate(139 116) scale(1.45)" color="#46785a"/><use href="#leaves" transform="translate(419 88) scale(1.6)" color="#2c6350"/><use href="#leaves" transform="translate(722 120) scale(1.5)" color="#3b7158"/><use href="#leaves" transform="translate(303 272)" color="#799c65"/><use href="#leaves" transform="translate(576 253) scale(1.15)" color="#78985f"/><use href="#leaves" transform="translate(39 419) scale(1.5)" color="#234f44"/><use href="#leaves" transform="translate(749 423) scale(1.35)" color="#254f45"/></g>
+  <g stroke="#486948" stroke-width="7"><path d="M209 454V321m-25 132V359m204 72V319m20 121V360m165 82V300m26 146V343"/></g>
+  <g fill="#e5aa8a"><circle cx="209" cy="319" r="18"/><circle cx="184" cy="355" r="14"/><circle cx="388" cy="316" r="17"/><circle cx="408" cy="357" r="13"/><circle cx="573" cy="297" r="20"/><circle cx="599" cy="340" r="15"/></g>
+  <g fill="#f4d8af"><circle cx="209" cy="319" r="5"/><circle cx="388" cy="316" r="5"/><circle cx="573" cy="297" r="6"/></g>
+</svg>

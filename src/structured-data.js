@@ -1,7 +1,8 @@
-// Only generate structured data after the owner explicitly verifies the details.
+// Never emit fictional business data from this demonstration.
+// Non-demo uses still require explicitly verified details.
 export function makeLocalBusinessData(business) {
   const { seo = {} } = business
-  if (!seo.verified || !seo.structuredData || !business.name?.trim() ||
+  if (business.demonstration || !seo.verified || !seo.structuredData || !business.name?.trim() ||
       !business.address?.trim() || !business.city?.trim() || !business.state?.trim() ||
       !business.postalCode?.trim() || !business.countryCode?.trim()) {
     return null

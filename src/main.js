@@ -146,6 +146,7 @@ function updateMetadata() {
   setMeta('meta[name="description"]', business.seo?.description)
   setMeta('meta[property="og:title"]', document.title)
   setMeta('meta[property="og:description"]', business.seo?.description)
+  setMeta('meta[name="theme-color"]', business.theme?.forest)
   ;[['og:url', business.seo?.siteUrl], ['og:image', business.seo?.imageUrl]].forEach(([property, url]) => {
     if (!business.seo?.verified || !isHttpsUrl(url)) return
     const meta = document.createElement('meta')
@@ -175,6 +176,7 @@ const values = {
   address: business.address || 'Street address: placeholder',
   phone: business.phone || 'Phone number: placeholder',
   email: business.email || 'Email: placeholder',
+  ...business.content,
 }
 Object.entries(values).forEach(([key, value]) => setText(`[data-business="${key}"]`, value))
 Object.entries(business.theme || {}).forEach(([key, value]) => {
@@ -182,7 +184,7 @@ Object.entries(business.theme || {}).forEach(([key, value]) => {
   if (CSS.supports('color', value)) document.documentElement.style.setProperty(`--${property}`, value)
 })
 const demoLabel = document.querySelector('#demo-label')
-if (demoLabel) demoLabel.hidden = Boolean(business.seo?.verified)
+if (demoLabel) demoLabel.hidden = !business.demonstration && Boolean(business.seo?.verified)
 updateImage('#hero-image', '#hero-image-label', business.images?.hero)
 updateImage('#about-image', '#about-image-label', business.images?.about)
 renderServices(business.services || [])
@@ -218,8 +220,12 @@ const form = document.querySelector('#estimate-form')
 const formStatus = document.querySelector('#form-status')
 form?.addEventListener('submit', (event) => {
   event.preventDefault()
+  form.reset()
   if (formStatus) formStatus.textContent = 'Demo only: your request was not sent or stored.'
 })
+// Enable the demo button only after its non-submitting handler is attached.
+const demoButton = form?.querySelector('button[type="submit"]')
+if (demoButton) demoButton.disabled = false
 
 const year = document.querySelector('#year')
 if (year) year.textContent = new Date().getFullYear()

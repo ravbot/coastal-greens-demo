@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Lawn and coastal planting — original demonstration illustration</title>
+  <desc>Original vector placeholder of a green lawn, garden border, and bench. Not a completed landscaping project.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9ec5c7"/><stop offset="1" stop-color="#e2e9d4"/></linearGradient><linearGradient id="grass" x2=".5" y2="1"><stop stop-color="#91a976"/><stop offset="1" stop-color="#456d51"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v600H0z"/>
+  <circle cx="631" cy="129" r="56" fill="#f3d5a8"/>
+  <path d="M0 312q167-103 360-25t440-47v360H0" fill="#477962"/>
+  <path d="M0 378q250-102 800-21v243H0" fill="url(#grass)"/>
+  <path d="m0 473 800-97v45L0 534zm0 119 800-118v49L305 600H0" fill="#aac391" opacity=".25"/>
+  <path d="M0 395q316-78 800-18" fill="none" stroke="#e4d8b6" stroke-width="13"/>
+  <g fill="#345b4c"><path d="M122 362q-27-162 22-278l16 6q-35 123-12 272"/><path d="M150 92Q47-3 9 136q79-69 141-44m0 0q90-114 157-6-95-32-157 6m0 0q-21-100 30-135 6 105-30 135m0 0q101-4 112 106-52-63-112-106"/></g>
+  <g stroke="#c79575" stroke-width="16" fill="none"><path d="M480 299h161m-161 28h161m-174 28h185m-166 0v65m148-65v65"/></g>
+  <g fill="#d7b18f"><circle cx="311" cy="341" r="10"/><circle cx="344" cy="328" r="9"/><circle cx="371" cy="346" r="10"/></g>
+  <path d="M735 600q-44-101 30-210 25 131-30 210m0 0q-92-110-130-81 26 64 130 81" fill="#244f43"/>
+</svg>

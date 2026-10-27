@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <title>Coastal garden — original demonstration illustration</title>
+  <desc>A fictional tropical garden, curving path, and coastal house. Original vector placeholder, not a photograph of a real property.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#82b8be"/><stop offset="1" stop-color="#e6e9cc"/></linearGradient>
+    <linearGradient id="lawn" x2=".7" y2="1"><stop stop-color="#8ea56b"/><stop offset="1" stop-color="#375e4c"/></linearGradient>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#fff5dd"/><stop offset="1" stop-color="#c9c6a5"/></linearGradient>
+    <g id="palm">
+      <path d="M0 480 Q-17 220 20 0" fill="none" stroke="#6d7153" stroke-width="24"/>
+      <path d="M-6 410 11 407 M-10 362 7 357 M-11 308 8 302 M-9 248 10 244 M-3 194 15 190 M4 135 20 132" stroke="#a5a37b" stroke-width="6"/>
+      <g fill="#2c6552">
+        <path d="M20 0 Q-130-110-230 36 Q-87-28 20 0"/>
+        <path d="M20 0 Q-130-26-177 157 Q-85 48 20 0"/>
+        <path d="M20 0 Q-38-132 14-176 Q-10-52 20 0"/>
+        <path d="M20 0 Q130-132 232-30 Q109-62 20 0"/>
+        <path d="M20 0 Q189-36 233 134 Q122 36 20 0"/>
+        <path d="M20 0 Q104 57 79 197 Q50 72 20 0"/>
+      </g>
+    </g>
+    <g id="shrub" fill="#35654c"><ellipse rx="58" ry="48"/><ellipse cx="-44" cy="16" rx="49" ry="36"/><ellipse cx="43" cy="18" rx="45" ry="33"/></g>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1190" cy="148" r="75" fill="#fbdfb2" opacity=".7"/>
+  <path d="M0 420 Q340 350 640 420 T1600 365 V900H0Z" fill="#668e6b"/>
+  <path d="M847 303h616v315H847z" fill="url(#wall)"/>
+  <path d="m787 305 270-170 466 163z" fill="#58777b"/>
+  <path d="m801 307 254-150 439 146" fill="none" stroke="#88a1a0" stroke-width="13"/>
+  <path d="M1176 324h166v294h-166z" fill="#244c50"/>
+  <path d="M890 352h142v122H890z" fill="#446d6a" stroke="#f9edcf" stroke-width="15"/>
+  <path d="M961 352v122m-71-61h142" stroke="#f9edcf" stroke-width="7"/>
+  <path d="M1126 314h28v306h-28zm244 0h28v306h-28z" fill="#f9edcf"/>
+  <path d="M0 564 Q458 463 980 602 T1600 530V900H0Z" fill="url(#lawn)"/>
+  <path d="M1310 608Q967 678 859 900h488q-37-177-37-292" fill="#d6d5bd"/>
+  <path d="M1246 633Q1100 748 1072 900m181-198-199-8m221 109-329-16" fill="none" stroke="#b4b9a5" stroke-width="5"/>
+  <path d="M0 646Q376 503 829 607" fill="none" stroke="#d0cfad" stroke-width="16"/>
+  <g><use href="#palm" transform="translate(266 208) scale(1.22)"/><use href="#palm" transform="translate(738 221) scale(.8)"/><use href="#palm" transform="translate(1475 189) scale(1.04)"/></g>
+  <g><use href="#shrub" transform="translate(916 581)"/><use href="#shrub" transform="translate(1445 606) scale(1.5)"/><use href="#shrub" transform="translate(66 637) scale(1.7)"/><use href="#shrub" transform="translate(668 565) scale(.9)"/></g>
+  <g fill="#e8b59b"><circle cx="893" cy="551" r="10"/><circle cx="927" cy="572" r="9"/><circle cx="953" cy="547" r="8"/><circle cx="1431" cy="568" r="11"/><circle cx="1484" cy="577" r="10"/></g>
+  <path d="M1370 900Q1336 690 1441 665q-21 135-71 235m0 0q18-229 154-240-56 155-154 240m0 0q110-194 230-150-100 99-230 150" fill="#214d42"/>
+  <path d="M0 900V755q139-51 210 145M85 900Q91 724 198 708q-19 142-113 192" fill="#275646"/>
+</svg>
