@@ -1,8 +1,8 @@
 // Edit this file to adapt the template. Empty strings and arrays are optional.
 // The default business and images are examples, not verified business information.
 export const business = {
-  name: 'Coastal Greens Landscaping',
-  brandLine: 'Boynton Beach',
+  name: 'Palm Grove Landscaping',
+  brandLine: 'Palm Grove',
   brandDescriptor: 'Landscaping',
   brandMark: 'PG',
   tagline: 'Thoughtful landscaping and dependable care for outdoor spaces made to be enjoyed.',
@@ -24,8 +24,8 @@ export const business = {
     { name: 'Pressure washing', description: 'Refresh walkways, patios, and other outdoor surfaces.' },
   ],
   theme: {
-    forest: '#174A5B',
-    forestDark: '#D7A85E',
+    forest: '#173b2f',
+    forestDark: '#102b22',
     cream: '#f7f7f0',
     paper: '#fffef9',
     gold: '#d6bc7e',
