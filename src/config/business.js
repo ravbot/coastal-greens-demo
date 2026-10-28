@@ -19,6 +19,9 @@ export const business = {
   hours: [], // Example: [{ days: 'Monday - Friday', time: '8:00 AM - 5:00 PM' }]
   socialLinks: [], // Example: [{ label: 'Instagram', url: 'https://example.com' }]
   content: {
+    promotionHeadline: 'Seasonal Landscaping Consultations',
+    promotionDescription: 'Ask us about preparing your outdoor spaces for the season.',
+    promotionButton: 'Request an Estimate',
     headline: 'Your coast.',
     headlineAccent: 'Your green.',
     heroNote: 'A little coastal calm, right at home.',
