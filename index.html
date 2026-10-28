@@ -3,76 +3,223 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#173b2f" />
-    <meta name="description" content="A sample website for Palm Grove Landscaping, a fictional landscaping company in West Palm Beach, Florida." />
-    <title>Palm Grove Landscaping | West Palm Beach, Florida</title>
+    <meta name="theme-color" content="#154e5b" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="Content-Security-Policy" content="form-action 'none'" />
+    <meta name="description" content="Explore Coastal Greens Landscaping, a fictional Boynton Beach, Florida business offering lawn care, coastal planting, shrub care, and garden refreshes. Demo only." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Coastal Greens Landscaping | Boynton Beach, Florida" />
+    <meta property="og:description" content="Explore Coastal Greens Landscaping, a fictional Boynton Beach, Florida business offering lawn care, coastal planting, shrub care, and garden refreshes. Demo only." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,500;1,400&display=swap" rel="stylesheet" />
+    <title>Coastal Greens Landscaping | Boynton Beach, Florida</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+
+    <aside class="demo-banner" aria-label="Demonstration notice">
+      <div class="container"><strong>Fictional demonstration.</strong> Not an official business website. No inquiries are sent or stored.</div>
+    </aside>
+
     <header class="site-header">
       <div class="header-inner container">
-        <a class="brand" href="#top" aria-label="Palm Grove Landscaping home"><span class="brand-mark" aria-hidden="true">PG</span><span class="brand-name">PALM GROVE <small>LANDSCAPING</small></span></a>
-        <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+        <a class="brand" href="#top">
+          <span class="brand-mark" data-business="brandMark" aria-hidden="true">CG</span>
+          <span class="brand-name">
+            <span data-business="brandLine">COASTAL GREENS</span>
+            <small data-business="brandDescriptor">LANDSCAPING</small>
+          </span>
+        </a>
+        <a class="mobile-contact" href="#contact">Get an estimate</a>
+        <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
         <nav id="primary-navigation" class="navigation" aria-label="Main navigation">
-          <a href="#services">Services</a><a href="#about">About</a><a href="#projects">Our work</a><a href="#contact" class="button button-header">Let's talk <span aria-hidden="true">&#8599;</span></a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#projects">Inspiration</a>
+          <a href="#contact" class="button button-header">Let's talk <span aria-hidden="true">&#8599;</span></a>
         </nav>
       </div>
     </header>
+
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-image" role="img" aria-label="Generated placeholder image of a tropical garden"></div>
+        <img class="hero-image" id="hero-image" src="/demo-coastal-garden.svg" alt="Original placeholder illustration of a coastal garden; not a real property or completed project" width="1600" height="900" fetchpriority="high" />
         <div class="hero-shade"></div>
         <div class="hero-content container">
-          <p class="eyebrow hero-eyebrow"><span></span> WEST PALM BEACH, FLORIDA</p>
-          <h1 id="hero-title">Palm Grove<br /><em>Landscaping.</em></h1>
-          <p class="hero-description">Thoughtful landscaping and dependable care for outdoor spaces made to be enjoyed.</p>
-          <div class="hero-actions"><a class="button button-gold" href="#contact">Get a Free Estimate <span aria-hidden="true">&#8599;</span></a><a class="hero-link" href="#services">Explore our services <span aria-hidden="true">&#8595;</span></a></div>
+          <p class="eyebrow hero-eyebrow"><span></span><span data-business="location">Boynton Beach, Florida</span></p>
+          <h1 id="hero-title"><span data-business="headline">Your coast.</span><br /><em data-business="headlineAccent">Your green.</em></h1>
+          <p class="hero-description" data-business="tagline">Easygoing outdoor living starts with a well-cared-for landscape. Lawn care, fresh planting, and garden refreshes inspired by the Florida coast.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#contact">Plan your outdoor space <span aria-hidden="true">&#8599;</span></a>
+            <a class="hero-link" href="#services">Explore our services <span aria-hidden="true">&#8595;</span></a>
+          </div>
         </div>
-        <div class="hero-bottom container"><span>BEAUTIFUL OUTDOORS, NATURALLY.</span><span>GENERATED PLACEHOLDER IMAGE</span></div>
+        <div class="hero-bottom container">
+          <span data-business="heroNote">A LITTLE COASTAL CALM, RIGHT AT HOME.</span>
+          <span id="hero-image-label">PLACEHOLDER ILLUSTRATION</span>
+        </div>
       </section>
-      <div class="intro-strip"><div class="container intro-strip-inner"><p><span class="strip-icon" aria-hidden="true">&#10022;</span> A LITTLE MORE GREEN. A LOT MORE LIFE.</p><span>LANDSCAPING &amp; OUTDOOR CARE IN WEST PALM BEACH</span></div></div>
-      <section class="section services" id="services"><div class="container">
-        <div class="section-heading services-heading"><div><p class="eyebrow"><span></span> WHAT WE DO</p><h2>Good things grow<br /><em>with good care.</em></h2></div><p>From the everyday details to the bigger picture, we're here to help your landscape look its best.</p></div>
-        <div class="services-grid">
-          <article class="service"><div class="service-top"><span class="service-number">01</span><span class="service-arrow" aria-hidden="true">&#8599;</span></div><h3>Lawn maintenance</h3><p>Keep your lawn healthy, tidy, and ready for every season.</p><a href="#contact" aria-label="Ask about lawn maintenance">Explore service <span aria-hidden="true">&#8594;</span></a></article>
-          <article class="service"><div class="service-top"><span class="service-number">02</span><span class="service-arrow" aria-hidden="true">&#8599;</span></div><h3>Landscape design</h3><p>Bring your vision to life with a landscape that feels like home.</p><a href="#contact" aria-label="Ask about landscape design">Explore service <span aria-hidden="true">&#8594;</span></a></article>
-          <article class="service"><div class="service-top"><span class="service-number">03</span><span class="service-arrow" aria-hidden="true">&#8599;</span></div><h3>Tree trimming</h3><p>Thoughtful pruning to keep your trees looking their best.</p><a href="#contact" aria-label="Ask about tree trimming">Explore service <span aria-hidden="true">&#8594;</span></a></article>
-          <article class="service"><div class="service-top"><span class="service-number">04</span><span class="service-arrow" aria-hidden="true">&#8599;</span></div><h3>Pressure washing</h3><p>Refresh walkways, patios, and other outdoor surfaces.</p><a href="#contact" aria-label="Ask about pressure washing">Explore service <span aria-hidden="true">&#8594;</span></a></article>
+
+      <div class="intro-strip">
+        <div class="container intro-strip-inner">
+          <p><span class="strip-icon" aria-hidden="true">&#10022;</span> <span data-business="introStatement">FRESH GREENS. SALT-AIR SPIRIT.</span></p>
+          <span data-business="introDescriptor">BOYNTON BEACH &amp; NEARBY COMMUNITIES</span>
         </div>
-      </div></section>
-      <section class="about section" id="about"><div class="container about-grid">
-        <div class="about-photo"><img src="/garden-about.jpg" alt="Placeholder photograph of garden tools and soil" loading="lazy" /><span class="photo-label">PLACEHOLDER PHOTOGRAPH</span><div class="about-photo-note"><span>ROOTED IN</span><strong>South Florida.</strong></div></div>
-        <div class="about-copy"><p class="eyebrow"><span></span> A LITTLE ABOUT US</p><h2>Made for life<br /><em>outside.</em></h2><p class="about-lead">The best outdoor spaces are the ones you can't wait to come home to.</p><p>Palm Grove Landscaping is a fictional West Palm Beach company imagined around a simple idea: caring for your landscape should feel as natural as enjoying it.</p><p>Whether you're looking for regular lawn care or a fresh perspective on your outdoor space, we're here to help you make the most of it.</p><a class="text-link" href="#contact">Get to know us <span aria-hidden="true">&#8594;</span></a></div>
-      </div></section>
-      <section class="section projects" id="projects"><div class="container">
-        <div class="section-heading project-heading"><div><p class="eyebrow"><span></span> A LITTLE INSPIRATION</p><h2>Outdoor spaces<br /><em>to love.</em></h2></div><p>A glimpse of the kind of spaces that inspire us. Images shown are placeholders, not completed projects.</p></div>
-        <div class="gallery">
-          <figure class="gallery-item gallery-tall"><img src="/garden-hero.png" alt="Generated placeholder image of a landscaped tropical garden" loading="lazy" /><span class="photo-label">GENERATED PLACEHOLDER IMAGE</span><figcaption><span>01 / INSPIRATION</span><strong>Room to unwind</strong></figcaption></figure>
-          <figure class="gallery-item"><img src="/garden-project-2.jpg" alt="Placeholder photograph of a green lawn" loading="lazy" /><span class="photo-label">PLACEHOLDER PHOTOGRAPH</span><figcaption><span>02 / INSPIRATION</span><strong>Everyday greenery</strong></figcaption></figure>
-          <figure class="gallery-item"><img src="/garden-project-3.jpg" alt="Placeholder photograph of a garden landscape" loading="lazy" /><span class="photo-label">PLACEHOLDER PHOTOGRAPH</span><figcaption><span>03 / INSPIRATION</span><strong>A place to grow</strong></figcaption></figure>
+      </div>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-heading services-heading">
+            <div>
+              <p class="eyebrow"><span></span> WHAT WE DO</p>
+              <h2><span data-business="servicesHeading">Coastal spaces,</span><br /><em data-business="servicesHeadingAccent">considered care.</em></h2>
+            </div>
+            <p data-business="servicesIntro">From a freshly edged lawn to a new garden bed, explore our fictional service offerings for laid-back Florida yards.</p>
+          </div>
+          <div class="services-grid" id="services-grid"></div>
         </div>
-      </div></section>
-      <section class="contact section" id="contact"><div class="container contact-grid">
-        <div class="contact-copy"><p class="eyebrow"><span></span> LET'S MAKE SOMETHING BEAUTIFUL</p><h2>Let's bring your<br /><em>outdoors to life.</em></h2><p>Tell us a little about your space and what you have in mind. We'd love to hear about it.</p><div class="contact-details"><div><span>OUR LOCATION</span><strong>West Palm Beach, Florida</strong><small>Street address: placeholder</small></div><div><span>GIVE US A CALL</span><strong>Phone number: placeholder</strong></div></div></div>
-        <form class="contact-form" id="estimate-form">
-          <div class="form-heading"><h3>Request an estimate</h3><p>This is a demonstration form. Messages are not sent.</p></div>
-          <div class="form-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Full name" required /></div><div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Your phone number" /></div></div>
-          <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></div>
-          <div class="field"><label for="service">What can we help with?</label><select id="service" name="service" required><option value="" selected disabled>Select a service</option><option>Lawn maintenance</option><option>Landscape design</option><option>Tree trimming</option><option>Pressure washing</option><option>Something else</option></select></div>
-          <div class="field"><label for="message">Tell us about your project</label><textarea id="message" name="message" rows="3" placeholder="A few details about your outdoor space..."></textarea></div>
-          <button class="button button-dark" type="submit">Send request <span aria-hidden="true">&#8599;</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-        </form>
-      </div></section>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container about-grid">
+          <div class="about-photo">
+            <img id="about-image" src="/demo-garden-tools.svg" alt="Original placeholder illustration of garden tools and a potted plant" width="800" height="533" loading="lazy" />
+            <span class="photo-label" id="about-image-label">PLACEHOLDER ILLUSTRATION</span>
+            <div class="about-photo-note">
+              <span>ROOTED IN</span>
+              <strong data-business="state">Florida</strong>
+            </div>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow"><span></span> A LITTLE ABOUT US</p>
+            <h2><span data-business="aboutHeading">A coastal outlook.</span><br /><em data-business="aboutHeadingAccent">A greener home.</em></h2>
+            <p class="about-lead" data-business="aboutLead">Room for morning coffee, bare feet, and a little more time outside.</p>
+            <p data-business="description">Coastal Greens Landscaping is a fictional business based in Boynton Beach, Florida. This demo imagines a local approach to landscaping: relaxed spaces, thoughtful planting, and practical care for coastal living.</p>
+            <p data-business="aboutDetails">The idea is simple: pair routine lawn care with planting and seasonal refreshes that suit your space, your style, and the way you enjoy being outdoors.</p>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-heading project-heading">
+            <div>
+              <p class="eyebrow"><span></span> A LITTLE INSPIRATION</p>
+              <h2><span data-business="projectsHeading">Picture your</span><br /><em data-business="projectsHeadingAccent">coastal escape.</em></h2>
+            </div>
+            <p data-business="projectsIntro">Garden inspiration for a softer, greener outdoor space. All images are placeholders, not Coastal Greens projects.</p>
+          </div>
+          <div class="gallery" id="gallery"></div>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="testimonials" hidden>
+        <div class="container">
+          <p class="eyebrow"><span></span> KIND WORDS</p>
+          <h2>What our customers say.</h2>
+          <div id="testimonials-list"></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow"><span></span><span data-business="contactEyebrow">YOUR NEXT OUTDOOR CHAPTER</span></p>
+            <h2><span data-business="contactHeading">Make room for</span><br /><em data-business="contactHeadingAccent">more outside.</em></h2>
+            <p data-business="contactIntro">Try planning a lawn care visit or garden refresh below. Coastal Greens is fictional; the contact details are placeholders and this demo sends no inquiries.</p>
+            <div class="contact-details">
+              <div>
+                <span>OUR LOCATION</span>
+                <strong data-business="location">Boynton Beach, Florida</strong>
+                <small data-business="address">Street address: placeholder — fictional business</small>
+              </div>
+              <div>
+                <span>PHONE — FICTIONAL CONTACT</span>
+                <strong data-business="phone">(561) 555-0147 (fictional)</strong>
+              </div>
+              <div>
+                <span>EMAIL — FICTIONAL CONTACT</span>
+                <strong data-business="email">hello@coastalgreens.example (fictional)</strong>
+              </div>
+              <div id="service-areas" hidden><span>SERVICE AREAS</span><strong></strong></div>
+              <div id="business-hours" hidden><span>BUSINESS HOURS</span><strong></strong></div>
+            </div>
+          </div>
+          <!-- No action, named fields, or Netlify Forms opt-in. Dialog method never submits over HTTP. -->
+          <form class="contact-form" id="estimate-form" method="dialog" autocomplete="off" aria-describedby="form-description">
+            <div class="form-heading">
+              <h3>Try a demo estimate</h3>
+              <p id="form-description">Demonstration only: use sample details. This form cannot send or store inquiries. Fields marked <strong>(required)</strong> must be completed.</p>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your name <span>(required)</span></label>
+                <input id="name" placeholder="Demo visitor" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" type="tel" placeholder="Fictional number only" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email address <span>(required)</span></label>
+              <input id="email" type="email" placeholder="demo@example.com" required />
+            </div>
+            <div class="field">
+              <label for="service">What can we help with? <span>(required)</span></label>
+              <select id="service" required>
+                <option value="" selected disabled>Select a service</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Tell us about your project</label>
+              <textarea id="message" rows="3" placeholder="Use sample project details only..."></textarea>
+            </div>
+            <button class="button button-dark" type="submit" disabled>Try demo request <span aria-hidden="true">&#8599;</span></button>
+            <noscript><p class="form-status">The demo form is inactive without JavaScript. No inquiries can be sent.</p></noscript>
+            <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"><div class="footer-main">
-      <div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">PG</span><span class="brand-name">PALM GROVE <small>LANDSCAPING</small></span></a><p>Thoughtful care for the places<br />where life grows.</p></div>
-      <div><h2>EXPLORE</h2><a href="#services">Services</a><a href="#about">About</a><a href="#projects">Our work</a></div>
-      <div><h2>GET IN TOUCH</h2><p>West Palm Beach, Florida<br />Address: placeholder<br />Phone: placeholder<br />Email: placeholder</p></div>
-      <div class="footer-cta"><h2>READY WHEN YOU ARE</h2><a href="#contact">Let's talk about your space <span aria-hidden="true">&#8599;</span></a></div>
-    </div><div class="footer-bottom"><span>&copy; <span id="year">2026</span> PALM GROVE LANDSCAPING. FICTIONAL BUSINESS.</span><a href="#top">BACK TO TOP &#8593;</a></div></div></footer>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div>
+            <a class="brand footer-brand" href="#top">
+              <span class="brand-mark" data-business="brandMark" aria-hidden="true">CG</span>
+              <span class="brand-name"><span data-business="brandLine">COASTAL GREENS</span><small data-business="brandDescriptor">LANDSCAPING</small></span>
+            </a>
+            <p data-business="tagline">Easygoing outdoor living starts with a well-cared-for landscape. Lawn care, fresh planting, and garden refreshes inspired by the Florida coast.</p>
+          </div>
+          <div>
+            <h2>EXPLORE</h2>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#projects">Inspiration</a>
+          </div>
+          <div>
+            <h2>GET IN TOUCH</h2>
+            <p><span data-business="location">Boynton Beach, Florida</span><br /><span data-business="address">Street address: placeholder — fictional business</span><br /><span data-business="phone">(561) 555-0147 (fictional)</span><br /><span data-business="email">hello@coastalgreens.example (fictional)</span></p>
+            <div id="social-links"></div>
+          </div>
+          <div class="footer-cta">
+            <h2>READY WHEN YOU ARE</h2>
+            <a href="#contact">Let's talk about your space <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; <span id="year">2026</span> <span data-business="name">COASTAL GREENS LANDSCAPING</span>. <span id="demo-label">FICTIONAL BUSINESS.</span></span>
+          <a href="#top">BACK TO TOP &#8593;</a>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

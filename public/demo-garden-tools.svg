@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+  <title>Garden tools — original demonstration illustration</title>
+  <desc>Original vector placeholder of a plant, pot, trowel, and garden soil. No people or real projects are depicted.</desc>
+  <defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#e9e3cc"/><stop offset="1" stop-color="#b1c4b6"/></linearGradient></defs>
+  <path fill="url(#surface)" d="M0 0h800v533H0z"/>
+  <path d="M0 374h800v159H0z" fill="#59786a"/>
+  <path d="M0 424h800M0 486h800" stroke="#93a493" stroke-width="3"/>
+  <ellipse cx="346" cy="397" rx="166" ry="24" fill="#2d5148" opacity=".25"/>
+  <path d="m221 255 34 135h158l35-135" fill="#c28668"/>
+  <ellipse cx="335" cy="256" rx="114" ry="31" fill="#e0a288"/>
+  <ellipse cx="335" cy="255" rx="94" ry="20" fill="#5d5342"/>
+  <g fill="none" stroke="#37624d" stroke-width="8" stroke-linecap="round"><path d="M337 253Q323 129 355 67m-17 174q-40-85-87-98m87 65q50-82 99-86"/></g>
+  <g fill="#407b5a"><path d="M351 133q-74-28-76-88 70 10 76 88m-15 62q-74 17-105-49 67-4 105 49m15-18q69-7 93-66-71-3-93 66m-2-59q66-15 58-86-55 18-58 86"/></g>
+  <g transform="rotate(28 564 299)"><rect x="549" y="113" width="32" height="160" rx="15" fill="#a97654"/><path d="M550 267q-43 33-34 94l49 54 48-54q9-61-34-94" fill="#b7ccca"/><path d="M565 280v110" stroke="#779b9d" stroke-width="4"/></g>
+  <path d="M88 466q79-90 152-3" fill="#514936"/>
+  <g fill="#b1a080"><circle cx="144" cy="440" r="5"/><circle cx="178" cy="451" r="6"/><circle cx="202" cy="435" r="4"/></g>
+  <path d="M664 533q-4-139 81-211-3 144-81 211m0 0q-43-99-93-97 19 70 93 97" fill="#315e4b"/>
+</svg>
